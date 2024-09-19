@@ -1,0 +1,288 @@
+/* Estilos generales */
+/*-----------------------------------*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Estilos del encabezado y barra de navegación */
+/*-----------------------------------*/
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 100px;
+}
+
+.nav-links {
+  display: flex;
+  margin-right: 20px;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+/* Estilos del hero shot */
+/*-----------------------------------*/
+.hero-section {
+  text-align: center;
+}
+
+.hero-section img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Estilos de sección de beneficios */
+/*-----------------------------------*/
+.benefits-section {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.benefits-section .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.benefits-section h2 {
+  margin-bottom: 20px;
+}
+
+.benefits-section .card {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.benefits-section .card h3 {
+  margin-bottom: 10px;
+}
+
+/* Estilos de sección de características */
+/*-----------------------------------*/
+.features-section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.features-section .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.features-section h2 {
+  margin-bottom: 20px;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.features-section .card {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.features-section .card h3 {
+  margin-bottom: 10px;
+}
+
+/* Estilos de sección de testimonios */
+/*-----------------------------------*/
+.testimonials-section {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.testimonials-section .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.testimonials-section h2 {
+  margin-bottom: 20px;
+}
+
+.testimonials-section .card {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials-section .testimonials-section .card h3 {
+  margin-bottom: 10px;
+}
+
+/* Estilos del formulario de contacto */
+/*-----------------------------------*/
+.contact-form-section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.contact-form-section .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-form-section h2 {
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #555555;
+}
+
+/* Estilos de sección de planes */
+/*-----------------------------------*/
+.plans-section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.plans-section .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.plans-section h2 {
+  margin-bottom: 20px;
+}
+
+.plans-section .card {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.plans-section .card h3 {
+  margin-bottom: 10px;
+}
+
+.plans-section .card .btn {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.plans-section .card .btn:hover {
+  background-color: #555555;
+}
+
+/* Estilos del pie de página */
+/*-----------------------------------*/
+footer {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilos del formulario de contacto para dispositivos móviles */
+@media screen and (max-width: 767px) {
+  .contact-form {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+
+/* Estilos del formulario de contacto para tabletas y dispositivos de pantalla pequeña */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .contact-form {
+    max-width: 80%;
+    padding: 0 20px;
+  }
+}
+
+/* Estilos del formulario de contacto para pantallas más grandes */
+@media screen and (min-width: 1024px) {
+  .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
